@@ -2311,3 +2311,8 @@ Type: :worker
     (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
 
 13:24:26.275 [warning] Task Elixir.LXical.Server.Provider.Handlers.Hover.handle/2 ran for  3 ms. Result :success
+13:25:43.527 [error] read protocol message: {:unknown_notification, "$/setTrace"}
+13:25:43.606 [error] read protocol message: {:unknown_notification, "$/setTrace"}
+13:26:09.950 [error] Received textDocument/didClose before server was initialized
+13:26:09.954 [error] Failed to handle Elixir.LXical.Protocol.Notifications.DidClose, {{:error, :not_initialized}, %{__struct__: LXical.Server.State, configuration: nil, in_flight_requests: %{}, initialized?: false, shutdown_received?: false}}
+13:26:09.954 [error] Could not handle message LXical.Protocol.Notifications.DidClose :ok

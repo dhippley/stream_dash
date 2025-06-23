@@ -35,3 +35,4 @@ stream_dash-*.tar
 npm-debug.log
 /assets/node_modules/
 
+.lexical/lexical.log
