@@ -1,0 +1,2313 @@
+13:13:04.588 [info] opened file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash/data_stream.ex
+13:13:04.598 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  0.49 ms. Result :success
+13:13:04.855 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeLens.handle/2 ran for  0.237 ms. Result :success
+13:13:04.892 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  0.613 ms. Result :success
+13:13:09.529 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeLens.handle/2 ran for  0.187 ms. Result :success
+13:13:15.568 [info] opened file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash/event_bus.ex
+13:13:15.574 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  0.375 ms. Result :success
+13:13:15.829 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeLens.handle/2 ran for  0.204 ms. Result :success
+13:13:15.873 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  0.637 ms. Result :success
+13:14:18.177 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeLens.handle/2 ran for  0.187 ms. Result :success
+13:15:19.327 [info] opened file:///Users/danielhippley/Code/projects/stream_dash/mix.exs
+13:15:26.379 [info] opened file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash.ex
+13:15:37.442 [info] opened file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash/application.ex
+13:15:48.619 [info] opened file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/router.ex
+13:16:03.132 [info] Resolved entity: {:call, Kernel, :defmodule, 2}
+13:16:03.346 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  222 ms. Result :canceled
+13:16:03.346 [error] Child :undefined of Supervisor LXical.Server.TaskQueue.State.TaskSupervisor terminated
+** (exit) :canceled
+Pid: #PID<0.1588.0>
+Start Call: Task.Supervised.start_link/?
+Restart: :temporary
+Shutdown: 5000
+Type: :worker
+13:16:03.352 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  228 ms. Result :success
+13:16:03.589 [info] Resolved entity: {:call, Kernel, :defmodule, 2}
+13:16:03.631 [error] ** (ErlangError) Erlang error: {:exception, %File.Error{reason: :enoent, path: nil, action: "get current working directory"}, [{File, :cwd!, 0, [file: ~c"lib/file.ex", line: 1608]}, {LXical.RemoteControl.Mix, :in_project, 2, [file: ~c"lib/lexical/remote_control/mix.ex", line: 17]}, {LXical.RemoteControl.Search.Fuzzy, :build_filter_fn, 0, [file: ~c"lib/lexical/remote_control/search/fuzzy.ex", line: 343]}, {LXical.RemoteControl.Search.Fuzzy, :new, 4, [file: ~c"lib/lexical/remote_control/search/fuzzy.ex", line: 79]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :do_fuzzy_search, 1, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 200]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :possible_aliases, 1, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 165]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :actions, 3, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 32]}, {Enum, :flat_map_list, 2, [file: ~c"lib/enum.ex", line: 4442]}]}
+    (kernel 10.2.2) erpc.erl:1368: :erpc.call/5
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_action.ex:16: LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:16:03.631 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  47 ms. Result :success
+13:16:03.641 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  42 ms. Result :success
+13:16:03.895 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeLens.handle/2 ran for  0.666 ms. Result :success
+13:16:03.981 [info] Resolved entity: {:call, Kernel, :defmodule, 2}
+13:16:03.982 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  35 ms. Result :success
+13:16:04.004 [error] ** (ErlangError) Erlang error: {:exception, %File.Error{reason: :enoent, path: nil, action: "get current working directory"}, [{File, :cwd!, 0, [file: ~c"lib/file.ex", line: 1608]}, {LXical.RemoteControl.Mix, :in_project, 2, [file: ~c"lib/lexical/remote_control/mix.ex", line: 17]}, {LXical.RemoteControl.Search.Fuzzy, :build_filter_fn, 0, [file: ~c"lib/lexical/remote_control/search/fuzzy.ex", line: 343]}, {LXical.RemoteControl.Search.Fuzzy, :new, 4, [file: ~c"lib/lexical/remote_control/search/fuzzy.ex", line: 79]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :do_fuzzy_search, 1, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 200]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :possible_aliases, 1, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 165]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :actions, 3, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 32]}, {Enum, :flat_map_list, 2, [file: ~c"lib/enum.ex", line: 4442]}]}
+    (kernel 10.2.2) erpc.erl:1368: :erpc.call/5
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_action.ex:16: LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:16:04.004 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  30 ms. Result :success
+13:16:13.135 [info] Resolved entity: {:call, Kernel, :defmodule, 2}
+13:16:13.162 [error] ** (ErlangError) Erlang error: {:exception, %File.Error{reason: :enoent, path: nil, action: "get current working directory"}, [{File, :cwd!, 0, [file: ~c"lib/file.ex", line: 1608]}, {LXical.RemoteControl.Mix, :in_project, 2, [file: ~c"lib/lexical/remote_control/mix.ex", line: 17]}, {LXical.RemoteControl.Search.Fuzzy, :build_filter_fn, 0, [file: ~c"lib/lexical/remote_control/search/fuzzy.ex", line: 343]}, {LXical.RemoteControl.Search.Fuzzy, :new, 4, [file: ~c"lib/lexical/remote_control/search/fuzzy.ex", line: 79]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :do_fuzzy_search, 1, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 200]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :possible_aliases, 1, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 165]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :actions, 3, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 32]}, {Enum, :flat_map_list, 2, [file: ~c"lib/enum.ex", line: 4442]}]}
+    (kernel 10.2.2) erpc.erl:1368: :erpc.call/5
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_action.ex:16: LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:16:13.162 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  32 ms. Result :success
+13:16:21.860 [info] Resolved entity: {:call, Kernel, :defmodule, 2}
+13:16:21.911 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  52 ms. Result :success
+13:16:21.913 [error] ** (ErlangError) Erlang error: {:exception, %File.Error{reason: :enoent, path: nil, action: "get current working directory"}, [{File, :cwd!, 0, [file: ~c"lib/file.ex", line: 1608]}, {LXical.RemoteControl.Mix, :in_project, 2, [file: ~c"lib/lexical/remote_control/mix.ex", line: 17]}, {LXical.RemoteControl.Search.Fuzzy, :build_filter_fn, 0, [file: ~c"lib/lexical/remote_control/search/fuzzy.ex", line: 343]}, {LXical.RemoteControl.Search.Fuzzy, :new, 4, [file: ~c"lib/lexical/remote_control/search/fuzzy.ex", line: 79]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :do_fuzzy_search, 1, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 200]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :possible_aliases, 1, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 165]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :actions, 3, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 32]}, {Enum, :flat_map_list, 2, [file: ~c"lib/enum.ex", line: 4442]}]}
+    (kernel 10.2.2) erpc.erl:1368: :erpc.call/5
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_action.ex:16: LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:16:21.913 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  55 ms. Result :success
+13:16:22.105 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeLens.handle/2 ran for  0.263 ms. Result :success
+13:16:22.181 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  26 ms. Result :success
+13:16:28.901 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeLens.handle/2 ran for  0.118 ms. Result :success
+13:16:28.951 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  0.463 ms. Result :success
+13:16:42.826 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeLens.handle/2 ran for  0.259 ms. Result :success
+13:16:42.867 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  3 ms. Result :success
+13:16:42.918 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  42 ms. Result :success
+13:16:42.919 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  40 ms. Result :success
+13:17:22.999 [info] opened file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.ex
+13:17:23.168 [info] Resolved entity: {:call, Kernel, :defmodule, 2}
+13:17:23.249 [error] ** (ErlangError) Erlang error: {:exception, %File.Error{reason: :enoent, path: nil, action: "get current working directory"}, [{File, :cwd!, 0, [file: ~c"lib/file.ex", line: 1608]}, {LXical.RemoteControl.Mix, :in_project, 2, [file: ~c"lib/lexical/remote_control/mix.ex", line: 17]}, {LXical.RemoteControl.Search.Fuzzy, :build_filter_fn, 0, [file: ~c"lib/lexical/remote_control/search/fuzzy.ex", line: 343]}, {LXical.RemoteControl.Search.Fuzzy, :new, 4, [file: ~c"lib/lexical/remote_control/search/fuzzy.ex", line: 79]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :do_fuzzy_search, 1, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 200]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :possible_aliases, 1, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 165]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :actions, 3, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 32]}, {Enum, :flat_map_list, 2, [file: ~c"lib/enum.ex", line: 4442]}]}
+    (kernel 10.2.2) erpc.erl:1368: :erpc.call/5
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_action.ex:16: LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:17:23.249 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  84 ms. Result :success
+13:17:23.410 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeLens.handle/2 ran for  0.114 ms. Result :success
+13:17:23.493 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  31 ms. Result :success
+13:17:50.413 [info] Resolved entity: {:module, StreamDash}
+13:17:50.417 [warning] Could not resolve hover request, got: {:error, :no_doc}
+13:17:50.417 [warning] Task Elixir.LXical.Server.Provider.Handlers.Hover.handle/2 ran for  11 ms. Result :success
+13:17:55.892 [info] Resolved entity: {:call, Kernel, :defmodule, 2}
+13:17:55.953 [error] ** (ErlangError) Erlang error: {:exception, %File.Error{reason: :enoent, path: nil, action: "get current working directory"}, [{File, :cwd!, 0, [file: ~c"lib/file.ex", line: 1608]}, {LXical.RemoteControl.Mix, :in_project, 2, [file: ~c"lib/lexical/remote_control/mix.ex", line: 17]}, {LXical.RemoteControl.Search.Fuzzy, :build_filter_fn, 0, [file: ~c"lib/lexical/remote_control/search/fuzzy.ex", line: 343]}, {LXical.RemoteControl.Search.Fuzzy, :new, 4, [file: ~c"lib/lexical/remote_control/search/fuzzy.ex", line: 79]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :do_fuzzy_search, 1, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 200]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :possible_aliases, 1, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 165]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :actions, 3, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 32]}, {Enum, :flat_map_list, 2, [file: ~c"lib/enum.ex", line: 4442]}]}
+    (kernel 10.2.2) erpc.erl:1368: :erpc.call/5
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_action.ex:16: LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:17:55.953 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  77 ms. Result :success
+13:17:55.975 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  99 ms. Result :success
+13:17:56.122 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeLens.handle/2 ran for  0.161 ms. Result :success
+13:17:56.212 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  39 ms. Result :success
+13:17:56.440 [warning] Could not resolve hover request, got: {:error, {:unsupported, {:unquoted_atom, ~c"ok"}}}
+13:17:56.441 [warning] Task Elixir.LXical.Server.Provider.Handlers.Hover.handle/2 ran for  2 ms. Result :success
+13:18:02.554 [warning] Could not resolve hover request, got: {:error, :not_found}
+13:18:02.554 [warning] Task Elixir.LXical.Server.Provider.Handlers.Hover.handle/2 ran for  1 ms. Result :success
+13:18:05.053 [warning] Could not resolve hover request, got: {:error, {:unsupported, {:keyword, ~c"do"}}}
+13:18:05.053 [warning] Task Elixir.LXical.Server.Provider.Handlers.Hover.handle/2 ran for  1 ms. Result :success
+13:18:07.945 [info] Resolved entity: {:variable, :bg}
+13:18:07.945 [warning] Could not resolve hover request, got: {:error, {:unsupported, {:variable, :bg}}}
+13:18:07.945 [warning] Task Elixir.LXical.Server.Provider.Handlers.Hover.handle/2 ran for  8 ms. Result :success
+13:18:09.457 [warning] Could not resolve hover request, got: {:error, {:unsupported, {:variable, :bg}}}
+13:18:09.457 [info] Resolved entity: {:variable, :bg}
+13:18:09.458 [warning] Task Elixir.LXical.Server.Provider.Handlers.Hover.handle/2 ran for  7 ms. Result :success
+13:18:09.974 [warning] Could not resolve hover request, got: {:error, {:unsupported, {:variable, :bg}}}
+13:18:09.974 [info] Resolved entity: {:variable, :bg}
+13:18:09.975 [warning] Task Elixir.LXical.Server.Provider.Handlers.Hover.handle/2 ran for  6 ms. Result :success
+13:18:12.887 [info] opened file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.html.heex
+13:18:15.543 [info] Resolved entity: {:call, Kernel, :defp, 2}
+13:18:15.579 [warning] Task Elixir.LXical.Server.Provider.Handlers.Hover.handle/2 ran for  42 ms. Result :success
+13:18:16.258 [warning] Could not resolve hover request, got: {:error, {:unsupported, {:variable, :bg}}}
+13:18:16.258 [info] Resolved entity: {:variable, :bg}
+13:18:16.258 [warning] Task Elixir.LXical.Server.Provider.Handlers.Hover.handle/2 ran for  6 ms. Result :success
+13:18:18.159 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  1 ms. Result :success
+13:18:18.162 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  5 ms. Result :success
+13:18:18.417 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeLens.handle/2 ran for  0.223 ms. Result :success
+13:18:18.455 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  2 ms. Result :success
+13:18:26.948 [info] opened file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/telemetry.ex
+13:18:31.287 [warning] Could not resolve hover request, got: {:error, {:unsupported, {:variable, :class}}}
+13:18:31.287 [info] Resolved entity: {:variable, :class}
+13:18:31.287 [warning] Task Elixir.LXical.Server.Provider.Handlers.Hover.handle/2 ran for  2 ms. Result :success
+13:18:31.785 [warning] Could not resolve hover request, got: {:error, {:unsupported, {:variable, :class}}}
+13:18:31.785 [info] Resolved entity: {:variable, :class}
+13:18:31.785 [warning] Task Elixir.LXical.Server.Provider.Handlers.Hover.handle/2 ran for  1 ms. Result :success
+13:18:41.352 [info] opened file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/controllers/page_html/home.html.heex
+13:18:41.368 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  9 ms. Result :success
+13:18:41.368 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  11 ms. Result :success
+13:18:41.599 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeLens.handle/2 ran for  0.118 ms. Result :success
+13:18:41.651 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  1 ms. Result :success
+13:18:41.692 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  1 ms. Result :success
+13:18:49.919 [warning] Could not resolve hover request, got: {:error, {:unsupported, {:variable, :path}}}
+13:18:49.919 [info] Resolved entity: {:variable, :path}
+13:18:49.919 [warning] Task Elixir.LXical.Server.Provider.Handlers.Hover.handle/2 ran for  1 ms. Result :success
+13:18:50.386 [warning] Could not resolve hover request, got: {:error, {:unsupported, {:variable, :d}}}
+13:18:50.385 [info] Resolved entity: {:variable, :d}
+13:18:50.386 [warning] Task Elixir.LXical.Server.Provider.Handlers.Hover.handle/2 ran for  1 ms. Result :success
+13:18:52.431 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  0.884 ms. Result :success
+13:19:02.864 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  0.979 ms. Result :success
+13:19:12.044 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  9 ms. Result :success
+13:20:53.538 [info] opened file:///Users/danielhippley/Code/projects/stream_dash/config/dev.exs
+13:21:57.908 [info] opened file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex
+13:22:07.627 [info] opened file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash/config.ex
+13:22:45.072 [info] opened file:///Users/danielhippley/Code/projects/stream_dash/demo.exs
+13:23:33.269 [info] Resolved entity: {:call, Kernel, :defmodule, 2}
+13:23:33.314 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  47 ms. Result :success
+13:23:33.318 [error] ** (ErlangError) Erlang error: {:exception, %File.Error{reason: :enoent, path: nil, action: "get current working directory"}, [{File, :cwd!, 0, [file: ~c"lib/file.ex", line: 1608]}, {LXical.RemoteControl.Mix, :in_project, 2, [file: ~c"lib/lexical/remote_control/mix.ex", line: 17]}, {LXical.RemoteControl.Search.Fuzzy, :build_filter_fn, 0, [file: ~c"lib/lexical/remote_control/search/fuzzy.ex", line: 343]}, {LXical.RemoteControl.Search.Fuzzy, :new, 4, [file: ~c"lib/lexical/remote_control/search/fuzzy.ex", line: 79]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :do_fuzzy_search, 1, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 200]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :possible_aliases, 1, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 165]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :actions, 3, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 32]}, {Enum, :flat_map_list, 2, [file: ~c"lib/enum.ex", line: 4442]}]}
+    (kernel 10.2.2) erpc.erl:1368: :erpc.call/5
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_action.ex:16: LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:23:33.318 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  51 ms. Result :success
+13:23:33.512 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeLens.handle/2 ran for  0.123 ms. Result :success
+13:23:33.591 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  26 ms. Result :success
+13:23:34.853 [info] Resolved entity: {:call, Kernel, :defmodule, 2}
+13:23:34.895 [error] ** (ErlangError) Erlang error: {:exception, %File.Error{reason: :enoent, path: nil, action: "get current working directory"}, [{File, :cwd!, 0, [file: ~c"lib/file.ex", line: 1608]}, {LXical.RemoteControl.Mix, :in_project, 2, [file: ~c"lib/lexical/remote_control/mix.ex", line: 17]}, {LXical.RemoteControl.Search.Fuzzy, :build_filter_fn, 0, [file: ~c"lib/lexical/remote_control/search/fuzzy.ex", line: 343]}, {LXical.RemoteControl.Search.Fuzzy, :new, 4, [file: ~c"lib/lexical/remote_control/search/fuzzy.ex", line: 79]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :do_fuzzy_search, 1, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 200]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :possible_aliases, 1, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 165]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :actions, 3, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 32]}, {Enum, :flat_map_list, 2, [file: ~c"lib/enum.ex", line: 4442]}]}
+    (kernel 10.2.2) erpc.erl:1368: :erpc.call/5
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_action.ex:16: LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:23:34.896 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  53 ms. Result :success
+13:23:35.142 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeLens.handle/2 ran for  0.211 ms. Result :success
+13:23:35.215 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  53 ms. Result :success
+13:23:36.240 [info] Resolved entity: {:call, Kernel, :defmodule, 2}
+13:23:36.284 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  46 ms. Result :success
+13:23:36.296 [error] ** (ErlangError) Erlang error: {:exception, %File.Error{reason: :enoent, path: nil, action: "get current working directory"}, [{File, :cwd!, 0, [file: ~c"lib/file.ex", line: 1608]}, {LXical.RemoteControl.Mix, :in_project, 2, [file: ~c"lib/lexical/remote_control/mix.ex", line: 17]}, {LXical.RemoteControl.Search.Fuzzy, :build_filter_fn, 0, [file: ~c"lib/lexical/remote_control/search/fuzzy.ex", line: 343]}, {LXical.RemoteControl.Search.Fuzzy, :new, 4, [file: ~c"lib/lexical/remote_control/search/fuzzy.ex", line: 79]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :do_fuzzy_search, 1, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 200]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :possible_aliases, 1, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 165]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :actions, 3, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 32]}, {Enum, :flat_map_list, 2, [file: ~c"lib/enum.ex", line: 4442]}]}
+    (kernel 10.2.2) erpc.erl:1368: :erpc.call/5
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_action.ex:16: LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:23:36.297 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  59 ms. Result :success
+13:23:36.484 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeLens.handle/2 ran for  0.248 ms. Result :success
+13:23:36.559 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  25 ms. Result :success
+13:23:38.446 [info] Resolved entity: {:call, Kernel, :defmodule, 2}
+13:23:38.493 [error] ** (ErlangError) Erlang error: {:exception, %File.Error{reason: :enoent, path: nil, action: "get current working directory"}, [{File, :cwd!, 0, [file: ~c"lib/file.ex", line: 1608]}, {LXical.RemoteControl.Mix, :in_project, 2, [file: ~c"lib/lexical/remote_control/mix.ex", line: 17]}, {LXical.RemoteControl.Search.Fuzzy, :build_filter_fn, 0, [file: ~c"lib/lexical/remote_control/search/fuzzy.ex", line: 343]}, {LXical.RemoteControl.Search.Fuzzy, :new, 4, [file: ~c"lib/lexical/remote_control/search/fuzzy.ex", line: 79]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :do_fuzzy_search, 1, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 200]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :possible_aliases, 1, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 165]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :actions, 3, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 32]}, {Enum, :flat_map_list, 2, [file: ~c"lib/enum.ex", line: 4442]}]}
+    (kernel 10.2.2) erpc.erl:1368: :erpc.call/5
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_action.ex:16: LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:23:38.493 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  56 ms. Result :success
+13:23:38.685 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeLens.handle/2 ran for  0.225 ms. Result :success
+13:23:38.696 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  2 ms. Result :success
+13:23:38.775 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  40 ms. Result :success
+13:23:39.650 [info] Resolved entity: {:call, Kernel, :defmodule, 2}
+13:23:39.689 [error] ** (ErlangError) Erlang error: {:exception, %File.Error{reason: :enoent, path: nil, action: "get current working directory"}, [{File, :cwd!, 0, [file: ~c"lib/file.ex", line: 1608]}, {LXical.RemoteControl.Mix, :in_project, 2, [file: ~c"lib/lexical/remote_control/mix.ex", line: 17]}, {LXical.RemoteControl.Search.Fuzzy, :build_filter_fn, 0, [file: ~c"lib/lexical/remote_control/search/fuzzy.ex", line: 343]}, {LXical.RemoteControl.Search.Fuzzy, :new, 4, [file: ~c"lib/lexical/remote_control/search/fuzzy.ex", line: 79]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :do_fuzzy_search, 1, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 200]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :possible_aliases, 1, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 165]}, {LXical.RemoteControl.CodeAction.Handlers.AddAlias, :actions, 3, [file: ~c"lib/lexical/remote_control/code_action/handlers/add_alias.ex", line: 32]}, {Enum, :flat_map_list, 2, [file: ~c"lib/enum.ex", line: 4442]}]}
+    (kernel 10.2.2) erpc.erl:1368: :erpc.call/5
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_action.ex:16: LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:23:39.689 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  49 ms. Result :success
+13:23:39.887 [error] GenServer LXical.Server terminating
+** (stop) {:exception, {:noproc, {:gen_statem, :call, [LXical.RemoteControl.Api.Proxy, {:buffer, {:mfa, LXical.RemoteControl.Build, :schedule_compile, [%{__struct__: LXical.Project, entropy: 15513, project_module: StreamDash.MixProject, mix_exs_uri: "file:///Users/danielhippley/Code/projects/stream_dash/mix.exs", mix_project?: true, root_uri: "file:///Users/danielhippley/Code/projects/stream_dash", env_variables: %{}, mix_env: nil, mix_target: nil}, false], -576460752303422386}, :ok}, :infinity]}}}
+    (kernel 10.2.2) erpc.erl:1366: :erpc.call/5
+    (lx_server 0.7.2) lib/lexical/server/state.ex:213: LXical.Server.State.apply/2
+    (lx_server 0.7.2) lib/lexical/server.ex:154: LXical.Server.apply_to_state/2
+    (lx_server 0.7.2) lib/lexical/server.ex:117: LXical.Server.handle_message/2
+    (lx_server 0.7.2) lib/lexical/server.ex:59: LXical.Server.handle_cast/2
+    (stdlib 6.2) gen_server.erl:2371: :gen_server.try_handle_cast/3
+    (stdlib 6.2) gen_server.erl:2433: :gen_server.handle_msg/6
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+Last message: {:"$gen_cast", {:protocol_message, %{text: nil, __struct__: LXical.Protocol.Notifications.DidSave, document: nil, lsp: %{text: nil, __struct__: LXical.Protocol.Notifications.DidSave.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash/data_stream.ex"]>, method: "textDocument/didSave", jsonrpc: "2.0"}, text_document: nil, method: "textDocument/didSave", jsonrpc: "2.0"}}}
+State: %{__struct__: LXical.Server.State, configuration: %{__struct__: LXical.Server.Configuration, project: %{__struct__: LXical.Project, entropy: 15513, project_module: nil, mix_exs_uri: "file:///Users/danielhippley/Code/projects/stream_dash/mix.exs", mix_project?: true, root_uri: "file:///Users/danielhippley/Code/projects/stream_dash", env_variables: %{}, mix_env: nil, mix_target: nil}, support: %{deprecated: true, __struct__: LXical.Server.Configuration.Support, snippet: true, work_done_progress: true, tags: #Protocol.Types.Completion.ClientCapabilities.TagSupport<[value_set: [:deprecated]]>, signature_help: #Protocol.Types.SignatureHelp.ClientCapabilities<[dynamic_registration: true, context_support: true, signature_information: #Protocol.Types.SignatureHelp.ClientCapabilities.SignatureInformation<[documentation_format: [:markdown, :plain_text], active_parameter_support: true, parameter_information: #Protocol.Types.SignatureHelp.ClientCapabilities.ParameterInformation<[label_offset_support: true]>]>]>, code_action_dynamic_registration: true, hierarchical_symbols: true}, client_name: "Visual Studio Code", dialyzer_enabled?: false, additional_watched_extensions: nil}, in_flight_requests: %{}, initialized?: true, shutdown_received?: false}
+13:23:39.905 [error] Process LXical.Server (#PID<0.1551.0>) terminating
+** (exit) {:exception, {:noproc, {:gen_statem, :call, [LXical.RemoteControl.Api.Proxy, {:buffer, {:mfa, LXical.RemoteControl.Build, :schedule_compile, [%{__struct__: LXical.Project, entropy: 15513, project_module: StreamDash.MixProject, mix_exs_uri: "file:///Users/danielhippley/Code/projects/stream_dash/mix.exs", mix_project?: true, root_uri: "file:///Users/danielhippley/Code/projects/stream_dash", env_variables: %{}, mix_env: nil, mix_target: nil}, false], -576460752303422386}, :ok}, :infinity]}}}
+    (kernel 10.2.2) erpc.erl:1366: :erpc.call/5
+    (lx_server 0.7.2) lib/lexical/server/state.ex:213: LXical.Server.State.apply/2
+    (lx_server 0.7.2) lib/lexical/server.ex:154: LXical.Server.apply_to_state/2
+    (lx_server 0.7.2) lib/lexical/server.ex:117: LXical.Server.handle_message/2
+    (lx_server 0.7.2) lib/lexical/server.ex:59: LXical.Server.handle_cast/2
+    (stdlib 6.2) gen_server.erl:2371: :gen_server.try_handle_cast/3
+    (stdlib 6.2) gen_server.erl:2433: :gen_server.handle_msg/6
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+Initial Call: LXical.Server.init/1
+Ancestors: [LXical.Server.Supervisor, #PID<0.1548.0>]
+Message Queue Length: 0
+Messages: []
+Links: [#PID<0.1549.0>]
+Dictionary: [rand_seed: {%{type: :exsss, next: #Function<0.40079776/1 in :rand.exsss_next>, bits: 58, uniform: #Function<1.40079776/1 in :rand.exsss_uniform>, uniform_n: #Function<2.40079776/2 in :rand.exsss_uniform>, jump: #Function<3.40079776/1 in :rand.exsplus_jump>}, [212873299584814879 | 9294886279595107]}]
+Trapping Exits: false
+Status: :running
+Heap Size: 4185
+Stack Size: 29
+Reductions: 353086
+13:23:39.907 [error] Child LXical.Server of Supervisor LXical.Server.Supervisor terminated
+** (exit) {:exception, {:noproc, {:gen_statem, :call, [LXical.RemoteControl.Api.Proxy, {:buffer, {:mfa, LXical.RemoteControl.Build, :schedule_compile, [%{__struct__: LXical.Project, entropy: 15513, project_module: StreamDash.MixProject, mix_exs_uri: "file:///Users/danielhippley/Code/projects/stream_dash/mix.exs", mix_project?: true, root_uri: "file:///Users/danielhippley/Code/projects/stream_dash", env_variables: %{}, mix_env: nil, mix_target: nil}, false], -576460752303422386}, :ok}, :infinity]}}}
+Pid: #PID<0.1551.0>
+Start Call: LXical.Server.start_link([])
+Restart: :permanent
+Shutdown: 5000
+Type: :worker
+13:23:39.908 [info] Child LXical.Server of Supervisor LXical.Server.Supervisor started
+Pid: #PID<0.1654.0>
+Start Call: LXical.Server.start_link([])
+Restart: :permanent
+Shutdown: 5000
+Type: :worker
+13:23:39.930 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeLens.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_lens.ex:16: LXical.Server.Provider.Handlers.CodeLens.handle(%{id: 79, __struct__: LXical.Protocol.Requests.CodeLens, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.DashboardLive do..."(130 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 79, __struct__: LXical.Protocol.Requests.CodeLens.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.ex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.ex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:23:39.930 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeLens.handle/2 ran for  11 ms. Result :success
+13:23:39.958 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.DocumentSymbols.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/document_symbols.ex:13: LXical.Server.Provider.Handlers.DocumentSymbols.handle(%{id: 80, __struct__: LXical.Protocol.Requests.DocumentSymbols, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.DashboardLive do..."(130 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 80, __struct__: LXical.Protocol.Requests.DocumentSymbols.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.ex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.ex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:23:39.959 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  5 ms. Result :success
+13:23:40.171 [error] Received workspace/didChangeWatchedFiles before server was initialized
+13:23:40.173 [error] Failed to handle Elixir.LXical.Protocol.Notifications.DidChangeWatchedFiles, {{:error, :not_initialized}, %{__struct__: LXical.Server.State, configuration: nil, in_flight_requests: %{}, initialized?: false, shutdown_received?: false}}
+13:23:40.173 [error] Could not handle message LXical.Protocol.Notifications.DidChangeWatchedFiles :ok
+13:23:40.663 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_action.ex:12: LXical.Server.Provider.Handlers.CodeAction.handle(%{id: 81, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: LxRange[<<1, 1>>...<<1, 1>>], __struct__: LXical.Protocol.Requests.CodeAction, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash/event_bus.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash/event_bus.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDash.EventBus do..."(20 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 81, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: #Protocol.Types.Range<[start: #Protocol.Types.Position<[line: 0, character: 0]>, end: #Protocol.Types.Position<[line: 0, character: 0]>]>, __struct__: LXical.Protocol.Requests.CodeAction.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash/event_bus.ex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash/event_bus.ex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:23:40.663 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  4 ms. Result :success
+13:23:40.912 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeLens.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_lens.ex:16: LXical.Server.Provider.Handlers.CodeLens.handle(%{id: 82, __struct__: LXical.Protocol.Requests.CodeLens, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash/event_bus.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash/event_bus.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDash.EventBus do..."(20 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 82, __struct__: LXical.Protocol.Requests.CodeLens.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash/event_bus.ex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash/event_bus.ex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:23:40.912 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeLens.handle/2 ran for  3 ms. Result :success
+13:23:40.961 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.DocumentSymbols.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/document_symbols.ex:13: LXical.Server.Provider.Handlers.DocumentSymbols.handle(%{id: 83, __struct__: LXical.Protocol.Requests.DocumentSymbols, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash/event_bus.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash/event_bus.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDash.EventBus do..."(20 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 83, __struct__: LXical.Protocol.Requests.DocumentSymbols.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash/event_bus.ex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash/event_bus.ex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:23:40.961 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  5 ms. Result :success
+13:23:41.795 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_action.ex:12: LXical.Server.Provider.Handlers.CodeAction.handle(%{id: 84, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: LxRange[<<1, 1>>...<<1, 1>>], __struct__: LXical.Protocol.Requests.CodeAction, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.DashboardLive do..."(130 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 84, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: #Protocol.Types.Range<[start: #Protocol.Types.Position<[line: 0, character: 0]>, end: #Protocol.Types.Position<[line: 0, character: 0]>]>, __struct__: LXical.Protocol.Requests.CodeAction.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.ex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.ex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:23:41.795 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  5 ms. Result :success
+13:23:41.869 [error] Received textDocument/didChange before server was initialized
+13:23:41.873 [error] Failed to handle Elixir.LXical.Protocol.Notifications.DidChange, {{:error, :not_initialized}, %{__struct__: LXical.Server.State, configuration: nil, in_flight_requests: %{}, initialized?: false, shutdown_received?: false}}
+13:23:41.873 [error] Could not handle message LXical.Protocol.Notifications.DidChange :ok
+13:23:41.952 [error] Received textDocument/didSave before server was initialized
+13:23:41.954 [error] Failed to handle Elixir.LXical.Protocol.Notifications.DidSave, {{:error, :not_initialized}, %{__struct__: LXical.Server.State, configuration: nil, in_flight_requests: %{}, initialized?: false, shutdown_received?: false}}
+13:23:41.954 [error] Could not handle message LXical.Protocol.Notifications.DidSave :ok
+13:23:42.050 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeLens.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_lens.ex:16: LXical.Server.Provider.Handlers.CodeLens.handle(%{id: 85, __struct__: LXical.Protocol.Requests.CodeLens, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.DashboardLive do..."(130 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 85, __struct__: LXical.Protocol.Requests.CodeLens.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.ex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.ex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:23:42.051 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeLens.handle/2 ran for  4 ms. Result :success
+13:23:42.121 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.DocumentSymbols.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/document_symbols.ex:13: LXical.Server.Provider.Handlers.DocumentSymbols.handle(%{id: 86, __struct__: LXical.Protocol.Requests.DocumentSymbols, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.DashboardLive do..."(130 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 86, __struct__: LXical.Protocol.Requests.DocumentSymbols.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.ex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.ex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:23:42.121 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  5 ms. Result :success
+13:23:42.272 [error] Received workspace/didChangeWatchedFiles before server was initialized
+13:23:42.273 [error] Failed to handle Elixir.LXical.Protocol.Notifications.DidChangeWatchedFiles, {{:error, :not_initialized}, %{__struct__: LXical.Server.State, configuration: nil, in_flight_requests: %{}, initialized?: false, shutdown_received?: false}}
+13:23:42.273 [error] Could not handle message LXical.Protocol.Notifications.DidChangeWatchedFiles :ok
+13:23:45.461 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_action.ex:12: LXical.Server.Provider.Handlers.CodeAction.handle(%{id: 87, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: LxRange[<<1, 1>>...<<1, 1>>], __struct__: LXical.Protocol.Requests.CodeAction, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.html.heex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.html.heex",
+        __struct__: LXical.Document,
+        lines: %Lines<"<div class=\"min-h-screen bg-gray-50\">..."(232 lines)>,
+        dirty?: false,
+        language_id: "phoenix-heex"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 87, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: #Protocol.Types.Range<[start: #Protocol.Types.Position<[line: 0, character: 0]>, end: #Protocol.Types.Position<[line: 0, character: 0]>]>, __struct__: LXical.Protocol.Requests.CodeAction.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.html.heex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.html.heex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:23:45.462 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  4 ms. Result :success
+13:23:45.527 [error] Received textDocument/didChange before server was initialized
+13:23:45.537 [error] Failed to handle Elixir.LXical.Protocol.Notifications.DidChange, {{:error, :not_initialized}, %{__struct__: LXical.Server.State, configuration: nil, in_flight_requests: %{}, initialized?: false, shutdown_received?: false}}
+13:23:45.537 [error] Could not handle message LXical.Protocol.Notifications.DidChange :ok
+13:23:45.736 [error] Received textDocument/didSave before server was initialized
+13:23:45.738 [error] Failed to handle Elixir.LXical.Protocol.Notifications.DidSave, {{:error, :not_initialized}, %{__struct__: LXical.Server.State, configuration: nil, in_flight_requests: %{}, initialized?: false, shutdown_received?: false}}
+13:23:45.739 [error] Could not handle message LXical.Protocol.Notifications.DidSave :ok
+13:23:45.753 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeLens.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_lens.ex:16: LXical.Server.Provider.Handlers.CodeLens.handle(%{id: 88, __struct__: LXical.Protocol.Requests.CodeLens, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.html.heex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.html.heex",
+        __struct__: LXical.Document,
+        lines: %Lines<"<div class=\"min-h-screen bg-gray-50\">..."(232 lines)>,
+        dirty?: false,
+        language_id: "phoenix-heex"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 88, __struct__: LXical.Protocol.Requests.CodeLens.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.html.heex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.html.heex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:23:45.753 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeLens.handle/2 ran for  17 ms. Result :success
+13:23:45.804 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.DocumentSymbols.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/document_symbols.ex:13: LXical.Server.Provider.Handlers.DocumentSymbols.handle(%{id: 89, __struct__: LXical.Protocol.Requests.DocumentSymbols, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.html.heex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.html.heex",
+        __struct__: LXical.Document,
+        lines: %Lines<"<div class=\"min-h-screen bg-gray-50\">..."(232 lines)>,
+        dirty?: false,
+        language_id: "phoenix-heex"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 89, __struct__: LXical.Protocol.Requests.DocumentSymbols.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.html.heex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.html.heex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:23:45.804 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  4 ms. Result :success
+13:23:46.049 [error] Received workspace/didChangeWatchedFiles before server was initialized
+13:23:46.052 [error] Failed to handle Elixir.LXical.Protocol.Notifications.DidChangeWatchedFiles, {{:error, :not_initialized}, %{__struct__: LXical.Server.State, configuration: nil, in_flight_requests: %{}, initialized?: false, shutdown_received?: false}}
+13:23:46.052 [error] Could not handle message LXical.Protocol.Notifications.DidChangeWatchedFiles :ok
+13:23:50.825 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_action.ex:12: LXical.Server.Provider.Handlers.CodeAction.handle(%{id: 90, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: LxRange[<<1, 1>>...<<1, 1>>], __struct__: LXical.Protocol.Requests.CodeAction, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Components.MetricsCard do..."(46 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 90, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: #Protocol.Types.Range<[start: #Protocol.Types.Position<[line: 0, character: 0]>, end: #Protocol.Types.Position<[line: 0, character: 0]>]>, __struct__: LXical.Protocol.Requests.CodeAction.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:23:50.826 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  7 ms. Result :success
+13:23:50.828 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.DocumentSymbols.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/document_symbols.ex:13: LXical.Server.Provider.Handlers.DocumentSymbols.handle(%{id: 91, __struct__: LXical.Protocol.Requests.DocumentSymbols, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Components.MetricsCard do..."(46 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 91, __struct__: LXical.Protocol.Requests.DocumentSymbols.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:23:50.829 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  10 ms. Result :success
+13:23:51.091 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeLens.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_lens.ex:16: LXical.Server.Provider.Handlers.CodeLens.handle(%{id: 92, __struct__: LXical.Protocol.Requests.CodeLens, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Components.MetricsCard do..."(46 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 92, __struct__: LXical.Protocol.Requests.CodeLens.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:23:51.092 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeLens.handle/2 ran for  6 ms. Result :success
+13:23:51.146 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.DocumentSymbols.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/document_symbols.ex:13: LXical.Server.Provider.Handlers.DocumentSymbols.handle(%{id: 93, __struct__: LXical.Protocol.Requests.DocumentSymbols, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Components.MetricsCard do..."(46 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 93, __struct__: LXical.Protocol.Requests.DocumentSymbols.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:23:51.146 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  6 ms. Result :success
+13:23:51.208 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_action.ex:12: LXical.Server.Provider.Handlers.CodeAction.handle(%{id: 94, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: LxRange[<<1, 1>>...<<1, 1>>], __struct__: LXical.Protocol.Requests.CodeAction, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Components.MetricsCard do..."(46 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 94, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: #Protocol.Types.Range<[start: #Protocol.Types.Position<[line: 0, character: 0]>, end: #Protocol.Types.Position<[line: 0, character: 0]>]>, __struct__: LXical.Protocol.Requests.CodeAction.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:23:51.209 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  4 ms. Result :success
+13:23:52.318 [error] Received textDocument/didChange before server was initialized
+13:23:52.320 [error] Failed to handle Elixir.LXical.Protocol.Notifications.DidChange, {{:error, :not_initialized}, %{__struct__: LXical.Server.State, configuration: nil, in_flight_requests: %{}, initialized?: false, shutdown_received?: false}}
+13:23:52.320 [error] Could not handle message LXical.Protocol.Notifications.DidChange :ok
+13:23:52.480 [error] Received textDocument/didSave before server was initialized
+13:23:52.482 [error] Failed to handle Elixir.LXical.Protocol.Notifications.DidSave, {{:error, :not_initialized}, %{__struct__: LXical.Server.State, configuration: nil, in_flight_requests: %{}, initialized?: false, shutdown_received?: false}}
+13:23:52.482 [error] Could not handle message LXical.Protocol.Notifications.DidSave :ok
+13:23:52.715 [error] Received workspace/didChangeWatchedFiles before server was initialized
+13:23:52.717 [error] Failed to handle Elixir.LXical.Protocol.Notifications.DidChangeWatchedFiles, {{:error, :not_initialized}, %{__struct__: LXical.Server.State, configuration: nil, in_flight_requests: %{}, initialized?: false, shutdown_received?: false}}
+13:23:52.717 [error] Could not handle message LXical.Protocol.Notifications.DidChangeWatchedFiles :ok
+13:23:53.529 [error] Received textDocument/didClose before server was initialized
+13:23:53.531 [error] Failed to handle Elixir.LXical.Protocol.Notifications.DidClose, {{:error, :not_initialized}, %{__struct__: LXical.Server.State, configuration: nil, in_flight_requests: %{}, initialized?: false, shutdown_received?: false}}
+13:23:53.531 [error] Could not handle message LXical.Protocol.Notifications.DidClose :ok
+13:23:54.909 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_action.ex:12: LXical.Server.Provider.Handlers.CodeAction.handle(%{id: 95, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: LxRange[<<1, 1>>...<<1, 1>>], __struct__: LXical.Protocol.Requests.CodeAction, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.html.heex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.html.heex",
+        __struct__: LXical.Document,
+        lines: %Lines<"<div class=\"min-h-screen bg-gray-50\">..."(232 lines)>,
+        dirty?: false,
+        language_id: "phoenix-heex"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 95, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: #Protocol.Types.Range<[start: #Protocol.Types.Position<[line: 0, character: 0]>, end: #Protocol.Types.Position<[line: 0, character: 0]>]>, __struct__: LXical.Protocol.Requests.CodeAction.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.html.heex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.html.heex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:23:54.909 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  5 ms. Result :success
+13:23:55.156 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeLens.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_lens.ex:16: LXical.Server.Provider.Handlers.CodeLens.handle(%{id: 96, __struct__: LXical.Protocol.Requests.CodeLens, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.html.heex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.html.heex",
+        __struct__: LXical.Document,
+        lines: %Lines<"<div class=\"min-h-screen bg-gray-50\">..."(232 lines)>,
+        dirty?: false,
+        language_id: "phoenix-heex"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 96, __struct__: LXical.Protocol.Requests.CodeLens.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.html.heex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.html.heex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:23:55.156 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeLens.handle/2 ran for  3 ms. Result :success
+13:23:55.204 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.DocumentSymbols.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/document_symbols.ex:13: LXical.Server.Provider.Handlers.DocumentSymbols.handle(%{id: 97, __struct__: LXical.Protocol.Requests.DocumentSymbols, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.html.heex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.html.heex",
+        __struct__: LXical.Document,
+        lines: %Lines<"<div class=\"min-h-screen bg-gray-50\">..."(232 lines)>,
+        dirty?: false,
+        language_id: "phoenix-heex"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 97, __struct__: LXical.Protocol.Requests.DocumentSymbols.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.html.heex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/live/dashboard_live.html.heex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:23:55.204 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  3 ms. Result :success
+13:23:57.327 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_action.ex:12: LXical.Server.Provider.Handlers.CodeAction.handle(%{id: 98, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: LxRange[<<1, 1>>...<<1, 1>>], __struct__: LXical.Protocol.Requests.CodeAction, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/router.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/router.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Router do..."(44 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 98, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: #Protocol.Types.Range<[start: #Protocol.Types.Position<[line: 0, character: 0]>, end: #Protocol.Types.Position<[line: 0, character: 0]>]>, __struct__: LXical.Protocol.Requests.CodeAction.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/router.ex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/router.ex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:23:57.327 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  6 ms. Result :success
+13:23:57.329 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.DocumentSymbols.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/document_symbols.ex:13: LXical.Server.Provider.Handlers.DocumentSymbols.handle(%{id: 99, __struct__: LXical.Protocol.Requests.DocumentSymbols, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/router.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/router.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Router do..."(44 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 99, __struct__: LXical.Protocol.Requests.DocumentSymbols.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/router.ex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/router.ex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:23:57.330 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  8 ms. Result :success
+13:23:57.554 [error] Received textDocument/didSave before server was initialized
+13:23:57.556 [error] Failed to handle Elixir.LXical.Protocol.Notifications.DidSave, {{:error, :not_initialized}, %{__struct__: LXical.Server.State, configuration: nil, in_flight_requests: %{}, initialized?: false, shutdown_received?: false}}
+13:23:57.556 [error] Could not handle message LXical.Protocol.Notifications.DidSave :ok
+13:23:57.597 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeLens.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_lens.ex:16: LXical.Server.Provider.Handlers.CodeLens.handle(%{id: 100, __struct__: LXical.Protocol.Requests.CodeLens, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/router.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/router.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Router do..."(44 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 100, __struct__: LXical.Protocol.Requests.CodeLens.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/router.ex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/router.ex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:23:57.599 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeLens.handle/2 ran for  5 ms. Result :success
+13:23:57.634 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.DocumentSymbols.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/document_symbols.ex:13: LXical.Server.Provider.Handlers.DocumentSymbols.handle(%{id: 101, __struct__: LXical.Protocol.Requests.DocumentSymbols, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/router.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/router.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Router do..."(44 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 101, __struct__: LXical.Protocol.Requests.DocumentSymbols.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/router.ex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/router.ex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:23:57.634 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  4 ms. Result :success
+13:24:02.362 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_action.ex:12: LXical.Server.Provider.Handlers.CodeAction.handle(%{id: 102, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: LxRange[<<1, 1>>...<<1, 1>>], __struct__: LXical.Protocol.Requests.CodeAction, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Components.MetricsCard do..."(46 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 102, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: #Protocol.Types.Range<[start: #Protocol.Types.Position<[line: 0, character: 0]>, end: #Protocol.Types.Position<[line: 0, character: 0]>]>, __struct__: LXical.Protocol.Requests.CodeAction.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:02.363 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  12 ms. Result :success
+13:24:02.366 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.DocumentSymbols.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/document_symbols.ex:13: LXical.Server.Provider.Handlers.DocumentSymbols.handle(%{id: 103, __struct__: LXical.Protocol.Requests.DocumentSymbols, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Components.MetricsCard do..."(46 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 103, __struct__: LXical.Protocol.Requests.DocumentSymbols.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:02.366 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  15 ms. Result :success
+13:24:02.600 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeLens.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_lens.ex:16: LXical.Server.Provider.Handlers.CodeLens.handle(%{id: 104, __struct__: LXical.Protocol.Requests.CodeLens, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Components.MetricsCard do..."(46 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 104, __struct__: LXical.Protocol.Requests.CodeLens.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:02.601 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeLens.handle/2 ran for  4 ms. Result :success
+13:24:02.651 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.DocumentSymbols.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/document_symbols.ex:13: LXical.Server.Provider.Handlers.DocumentSymbols.handle(%{id: 105, __struct__: LXical.Protocol.Requests.DocumentSymbols, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Components.MetricsCard do..."(46 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 105, __struct__: LXical.Protocol.Requests.DocumentSymbols.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:02.651 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  4 ms. Result :success
+13:24:02.731 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_action.ex:12: LXical.Server.Provider.Handlers.CodeAction.handle(%{id: 106, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: LxRange[<<1, 1>>...<<1, 1>>], __struct__: LXical.Protocol.Requests.CodeAction, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Components.MetricsCard do..."(46 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 106, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: #Protocol.Types.Range<[start: #Protocol.Types.Position<[line: 0, character: 0]>, end: #Protocol.Types.Position<[line: 0, character: 0]>]>, __struct__: LXical.Protocol.Requests.CodeAction.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:02.731 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  4 ms. Result :success
+13:24:07.211 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.Hover.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/hover.ex:17: LXical.Server.Provider.Handlers.Hover.handle(%{id: 107, position: LxPos<<31, 42>>, __struct__: LXical.Protocol.Requests.Hover, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Components.MetricsCard do..."(46 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 107, position: #Protocol.Types.Position<[line: 30, character: 41]>, __struct__: LXical.Protocol.Requests.Hover.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/hover", jsonrpc: "2.0", work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/hover", jsonrpc: "2.0", work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:07.212 [warning] Task Elixir.LXical.Server.Provider.Handlers.Hover.handle/2 ran for  3 ms. Result :success
+13:24:07.816 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.Hover.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/hover.ex:17: LXical.Server.Provider.Handlers.Hover.handle(%{id: 108, position: LxPos<<32, 43>>, __struct__: LXical.Protocol.Requests.Hover, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Components.MetricsCard do..."(46 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 108, position: #Protocol.Types.Position<[line: 31, character: 42]>, __struct__: LXical.Protocol.Requests.Hover.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/hover", jsonrpc: "2.0", work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/hover", jsonrpc: "2.0", work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:07.816 [warning] Task Elixir.LXical.Server.Provider.Handlers.Hover.handle/2 ran for  3 ms. Result :success
+13:24:09.198 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_action.ex:12: LXical.Server.Provider.Handlers.CodeAction.handle(%{id: 109, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: LxRange[<<1, 1>>...<<1, 1>>], __struct__: LXical.Protocol.Requests.CodeAction, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/router.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/router.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Router do..."(44 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 109, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: #Protocol.Types.Range<[start: #Protocol.Types.Position<[line: 0, character: 0]>, end: #Protocol.Types.Position<[line: 0, character: 0]>]>, __struct__: LXical.Protocol.Requests.CodeAction.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/router.ex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/router.ex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:09.198 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  5 ms. Result :success
+13:24:09.442 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeLens.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_lens.ex:16: LXical.Server.Provider.Handlers.CodeLens.handle(%{id: 110, __struct__: LXical.Protocol.Requests.CodeLens, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/router.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/router.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Router do..."(44 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 110, __struct__: LXical.Protocol.Requests.CodeLens.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/router.ex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/router.ex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:09.443 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeLens.handle/2 ran for  3 ms. Result :success
+13:24:09.511 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.DocumentSymbols.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/document_symbols.ex:13: LXical.Server.Provider.Handlers.DocumentSymbols.handle(%{id: 111, __struct__: LXical.Protocol.Requests.DocumentSymbols, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/router.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/router.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Router do..."(44 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 111, __struct__: LXical.Protocol.Requests.DocumentSymbols.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/router.ex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/router.ex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:09.512 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  5 ms. Result :success
+13:24:10.412 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_action.ex:12: LXical.Server.Provider.Handlers.CodeAction.handle(%{id: 112, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: LxRange[<<1, 1>>...<<1, 1>>], __struct__: LXical.Protocol.Requests.CodeAction, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/telemetry.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/telemetry.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Telemetry do..."(103 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 112, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: #Protocol.Types.Range<[start: #Protocol.Types.Position<[line: 0, character: 0]>, end: #Protocol.Types.Position<[line: 0, character: 0]>]>, __struct__: LXical.Protocol.Requests.CodeAction.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/telemetry.ex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/telemetry.ex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:10.412 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  14 ms. Result :success
+13:24:10.415 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.DocumentSymbols.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/document_symbols.ex:13: LXical.Server.Provider.Handlers.DocumentSymbols.handle(%{id: 113, __struct__: LXical.Protocol.Requests.DocumentSymbols, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/telemetry.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/telemetry.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Telemetry do..."(103 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 113, __struct__: LXical.Protocol.Requests.DocumentSymbols.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/telemetry.ex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/telemetry.ex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:10.416 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  17 ms. Result :success
+13:24:10.630 [error] Received textDocument/didSave before server was initialized
+13:24:10.634 [error] Failed to handle Elixir.LXical.Protocol.Notifications.DidSave, {{:error, :not_initialized}, %{__struct__: LXical.Server.State, configuration: nil, in_flight_requests: %{}, initialized?: false, shutdown_received?: false}}
+13:24:10.635 [error] Could not handle message LXical.Protocol.Notifications.DidSave :ok
+13:24:10.668 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeLens.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_lens.ex:16: LXical.Server.Provider.Handlers.CodeLens.handle(%{id: 114, __struct__: LXical.Protocol.Requests.CodeLens, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/telemetry.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/telemetry.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Telemetry do..."(103 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 114, __struct__: LXical.Protocol.Requests.CodeLens.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/telemetry.ex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/telemetry.ex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:10.668 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeLens.handle/2 ran for  5 ms. Result :success
+13:24:10.713 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.DocumentSymbols.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/document_symbols.ex:13: LXical.Server.Provider.Handlers.DocumentSymbols.handle(%{id: 115, __struct__: LXical.Protocol.Requests.DocumentSymbols, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/telemetry.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/telemetry.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Telemetry do..."(103 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 115, __struct__: LXical.Protocol.Requests.DocumentSymbols.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/telemetry.ex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/telemetry.ex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:10.713 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  4 ms. Result :success
+13:24:10.942 [error] Received workspace/didChangeWatchedFiles before server was initialized
+13:24:10.945 [error] Failed to handle Elixir.LXical.Protocol.Notifications.DidChangeWatchedFiles, {{:error, :not_initialized}, %{__struct__: LXical.Server.State, configuration: nil, in_flight_requests: %{}, initialized?: false, shutdown_received?: false}}
+13:24:10.945 [error] Could not handle message LXical.Protocol.Notifications.DidChangeWatchedFiles :ok
+13:24:10.945 [error] Received textDocument/didSave before server was initialized
+13:24:10.948 [error] Failed to handle Elixir.LXical.Protocol.Notifications.DidSave, {{:error, :not_initialized}, %{__struct__: LXical.Server.State, configuration: nil, in_flight_requests: %{}, initialized?: false, shutdown_received?: false}}
+13:24:10.948 [error] Could not handle message LXical.Protocol.Notifications.DidSave :ok
+13:24:11.340 [error] Received workspace/didChangeWatchedFiles before server was initialized
+13:24:11.341 [error] Failed to handle Elixir.LXical.Protocol.Notifications.DidChangeWatchedFiles, {{:error, :not_initialized}, %{__struct__: LXical.Server.State, configuration: nil, in_flight_requests: %{}, initialized?: false, shutdown_received?: false}}
+13:24:11.342 [error] Could not handle message LXical.Protocol.Notifications.DidChangeWatchedFiles :ok
+13:24:13.586 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_action.ex:12: LXical.Server.Provider.Handlers.CodeAction.handle(%{id: 116, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: LxRange[<<1, 1>>...<<1, 1>>], __struct__: LXical.Protocol.Requests.CodeAction, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/demo.exs",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/demo.exs",
+        __struct__: LXical.Document,
+        lines: %Lines<"#!/usr/bin/env elixir..."(64 lines)>,
+        dirty?: false,
+        language_id: "elixir-script"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 116, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: #Protocol.Types.Range<[start: #Protocol.Types.Position<[line: 0, character: 0]>, end: #Protocol.Types.Position<[line: 0, character: 0]>]>, __struct__: LXical.Protocol.Requests.CodeAction.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/demo.exs"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/demo.exs"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:13.586 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  6 ms. Result :success
+13:24:13.589 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.DocumentSymbols.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/document_symbols.ex:13: LXical.Server.Provider.Handlers.DocumentSymbols.handle(%{id: 117, __struct__: LXical.Protocol.Requests.DocumentSymbols, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/demo.exs",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/demo.exs",
+        __struct__: LXical.Document,
+        lines: %Lines<"#!/usr/bin/env elixir..."(64 lines)>,
+        dirty?: false,
+        language_id: "elixir-script"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 117, __struct__: LXical.Protocol.Requests.DocumentSymbols.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/demo.exs"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/demo.exs"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:13.589 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  9 ms. Result :success
+13:24:13.837 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeLens.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_lens.ex:16: LXical.Server.Provider.Handlers.CodeLens.handle(%{id: 118, __struct__: LXical.Protocol.Requests.CodeLens, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/demo.exs",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/demo.exs",
+        __struct__: LXical.Document,
+        lines: %Lines<"#!/usr/bin/env elixir..."(64 lines)>,
+        dirty?: false,
+        language_id: "elixir-script"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 118, __struct__: LXical.Protocol.Requests.CodeLens.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/demo.exs"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/demo.exs"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:13.837 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeLens.handle/2 ran for  3 ms. Result :success
+13:24:13.880 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.DocumentSymbols.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/document_symbols.ex:13: LXical.Server.Provider.Handlers.DocumentSymbols.handle(%{id: 119, __struct__: LXical.Protocol.Requests.DocumentSymbols, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/demo.exs",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/demo.exs",
+        __struct__: LXical.Document,
+        lines: %Lines<"#!/usr/bin/env elixir..."(64 lines)>,
+        dirty?: false,
+        language_id: "elixir-script"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 119, __struct__: LXical.Protocol.Requests.DocumentSymbols.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/demo.exs"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/demo.exs"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:13.880 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  4 ms. Result :success
+13:24:14.383 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_action.ex:12: LXical.Server.Provider.Handlers.CodeAction.handle(%{id: 120, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: LxRange[<<1, 1>>...<<1, 1>>], __struct__: LXical.Protocol.Requests.CodeAction, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/mix.exs",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/mix.exs",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDash.MixProject do..."(86 lines)>,
+        dirty?: false,
+        language_id: "elixir-script"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 120, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: #Protocol.Types.Range<[start: #Protocol.Types.Position<[line: 0, character: 0]>, end: #Protocol.Types.Position<[line: 0, character: 0]>]>, __struct__: LXical.Protocol.Requests.CodeAction.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/mix.exs"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/mix.exs"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:14.384 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  5 ms. Result :success
+13:24:14.447 [error] Received textDocument/didChange before server was initialized
+13:24:14.453 [error] Failed to handle Elixir.LXical.Protocol.Notifications.DidChange, {{:error, :not_initialized}, %{__struct__: LXical.Server.State, configuration: nil, in_flight_requests: %{}, initialized?: false, shutdown_received?: false}}
+13:24:14.453 [error] Could not handle message LXical.Protocol.Notifications.DidChange :ok
+13:24:14.527 [error] Received textDocument/didSave before server was initialized
+13:24:14.530 [error] Failed to handle Elixir.LXical.Protocol.Notifications.DidSave, {{:error, :not_initialized}, %{__struct__: LXical.Server.State, configuration: nil, in_flight_requests: %{}, initialized?: false, shutdown_received?: false}}
+13:24:14.530 [error] Could not handle message LXical.Protocol.Notifications.DidSave :ok
+13:24:14.641 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeLens.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_lens.ex:16: LXical.Server.Provider.Handlers.CodeLens.handle(%{id: 121, __struct__: LXical.Protocol.Requests.CodeLens, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/mix.exs",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/mix.exs",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDash.MixProject do..."(86 lines)>,
+        dirty?: false,
+        language_id: "elixir-script"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 121, __struct__: LXical.Protocol.Requests.CodeLens.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/mix.exs"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/mix.exs"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:14.642 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeLens.handle/2 ran for  5 ms. Result :success
+13:24:14.679 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.DocumentSymbols.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/document_symbols.ex:13: LXical.Server.Provider.Handlers.DocumentSymbols.handle(%{id: 122, __struct__: LXical.Protocol.Requests.DocumentSymbols, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/mix.exs",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/mix.exs",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDash.MixProject do..."(86 lines)>,
+        dirty?: false,
+        language_id: "elixir-script"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 122, __struct__: LXical.Protocol.Requests.DocumentSymbols.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/mix.exs"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/mix.exs"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:14.679 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  3 ms. Result :success
+13:24:14.847 [error] Received workspace/didChangeWatchedFiles before server was initialized
+13:24:14.849 [error] Failed to handle Elixir.LXical.Protocol.Notifications.DidChangeWatchedFiles, {{:error, :not_initialized}, %{__struct__: LXical.Server.State, configuration: nil, in_flight_requests: %{}, initialized?: false, shutdown_received?: false}}
+13:24:14.850 [error] Could not handle message LXical.Protocol.Notifications.DidChangeWatchedFiles :ok
+13:24:15.159 [error] Received textDocument/didSave before server was initialized
+13:24:15.161 [error] Failed to handle Elixir.LXical.Protocol.Notifications.DidSave, {{:error, :not_initialized}, %{__struct__: LXical.Server.State, configuration: nil, in_flight_requests: %{}, initialized?: false, shutdown_received?: false}}
+13:24:15.161 [error] Could not handle message LXical.Protocol.Notifications.DidSave :ok
+13:24:15.520 [error] Received workspace/didChangeWatchedFiles before server was initialized
+13:24:15.522 [error] Failed to handle Elixir.LXical.Protocol.Notifications.DidChangeWatchedFiles, {{:error, :not_initialized}, %{__struct__: LXical.Server.State, configuration: nil, in_flight_requests: %{}, initialized?: false, shutdown_received?: false}}
+13:24:15.522 [error] Could not handle message LXical.Protocol.Notifications.DidChangeWatchedFiles :ok
+13:24:17.785 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_action.ex:12: LXical.Server.Provider.Handlers.CodeAction.handle(%{id: 123, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: LxRange[<<1, 1>>...<<1, 1>>], __struct__: LXical.Protocol.Requests.CodeAction, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Components.MetricsCard do..."(46 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 123, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: #Protocol.Types.Range<[start: #Protocol.Types.Position<[line: 0, character: 0]>, end: #Protocol.Types.Position<[line: 0, character: 0]>]>, __struct__: LXical.Protocol.Requests.CodeAction.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:17.785 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  4 ms. Result :success
+13:24:18.030 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeLens.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_lens.ex:16: LXical.Server.Provider.Handlers.CodeLens.handle(%{id: 124, __struct__: LXical.Protocol.Requests.CodeLens, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Components.MetricsCard do..."(46 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 124, __struct__: LXical.Protocol.Requests.CodeLens.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/codeLens", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:18.030 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeLens.handle/2 ran for  5 ms. Result :success
+13:24:18.110 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.DocumentSymbols.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/document_symbols.ex:13: LXical.Server.Provider.Handlers.DocumentSymbols.handle(%{id: 125, __struct__: LXical.Protocol.Requests.DocumentSymbols, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Components.MetricsCard do..."(46 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 125, __struct__: LXical.Protocol.Requests.DocumentSymbols.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/documentSymbol", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:18.110 [warning] Task Elixir.LXical.Server.Provider.Handlers.DocumentSymbols.handle/2 ran for  5 ms. Result :success
+13:24:18.156 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.CodeAction.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/code_action.ex:12: LXical.Server.Provider.Handlers.CodeAction.handle(%{id: 126, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: LxRange[<<1, 1>>...<<1, 1>>], __struct__: LXical.Protocol.Requests.CodeAction, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Components.MetricsCard do..."(46 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 126, context: #Protocol.Types.CodeAction.Context<[diagnostics: [], trigger_kind: :automatic]>, range: #Protocol.Types.Range<[start: #Protocol.Types.Position<[line: 0, character: 0]>, end: #Protocol.Types.Position<[line: 0, character: 0]>]>, __struct__: LXical.Protocol.Requests.CodeAction.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/codeAction", jsonrpc: "2.0", partial_result_token: nil, work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:18.156 [warning] Task Elixir.LXical.Server.Provider.Handlers.CodeAction.handle/2 ran for  3 ms. Result :success
+13:24:23.438 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.Hover.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/hover.ex:17: LXical.Server.Provider.Handlers.Hover.handle(%{id: 127, position: LxPos<<20, 1>>, __struct__: LXical.Protocol.Requests.Hover, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Components.MetricsCard do..."(46 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 127, position: #Protocol.Types.Position<[line: 19, character: 0]>, __struct__: LXical.Protocol.Requests.Hover.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/hover", jsonrpc: "2.0", work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/hover", jsonrpc: "2.0", work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:23.439 [warning] Task Elixir.LXical.Server.Provider.Handlers.Hover.handle/2 ran for  4 ms. Result :success
+13:24:23.989 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.Hover.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/hover.ex:17: LXical.Server.Provider.Handlers.Hover.handle(%{id: 128, position: LxPos<<20, 2>>, __struct__: LXical.Protocol.Requests.Hover, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Components.MetricsCard do..."(46 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 128, position: #Protocol.Types.Position<[line: 19, character: 1]>, __struct__: LXical.Protocol.Requests.Hover.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/hover", jsonrpc: "2.0", work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/hover", jsonrpc: "2.0", work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:23.989 [warning] Task Elixir.LXical.Server.Provider.Handlers.Hover.handle/2 ran for  4 ms. Result :success
+13:24:24.437 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.Hover.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/hover.ex:17: LXical.Server.Provider.Handlers.Hover.handle(%{id: 129, position: LxPos<<20, 2>>, __struct__: LXical.Protocol.Requests.Hover, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Components.MetricsCard do..."(46 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 129, position: #Protocol.Types.Position<[line: 19, character: 1]>, __struct__: LXical.Protocol.Requests.Hover.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/hover", jsonrpc: "2.0", work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/hover", jsonrpc: "2.0", work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:24.438 [warning] Task Elixir.LXical.Server.Provider.Handlers.Hover.handle/2 ran for  4 ms. Result :success
+13:24:24.907 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.Hover.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/hover.ex:17: LXical.Server.Provider.Handlers.Hover.handle(%{id: 130, position: LxPos<<20, 3>>, __struct__: LXical.Protocol.Requests.Hover, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Components.MetricsCard do..."(46 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 130, position: #Protocol.Types.Position<[line: 19, character: 2]>, __struct__: LXical.Protocol.Requests.Hover.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/hover", jsonrpc: "2.0", work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/hover", jsonrpc: "2.0", work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:24.907 [warning] Task Elixir.LXical.Server.Provider.Handlers.Hover.handle/2 ran for  4 ms. Result :success
+13:24:25.338 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.Hover.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/hover.ex:17: LXical.Server.Provider.Handlers.Hover.handle(%{id: 131, position: LxPos<<20, 3>>, __struct__: LXical.Protocol.Requests.Hover, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Components.MetricsCard do..."(46 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 131, position: #Protocol.Types.Position<[line: 19, character: 2]>, __struct__: LXical.Protocol.Requests.Hover.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/hover", jsonrpc: "2.0", work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/hover", jsonrpc: "2.0", work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:25.338 [warning] Task Elixir.LXical.Server.Provider.Handlers.Hover.handle/2 ran for  4 ms. Result :success
+13:24:26.274 [error] ** (FunctionClauseError) no function clause matching in LXical.Server.Provider.Handlers.Hover.handle/2
+    (lx_server 0.7.2) lib/lexical/server/provider/handlers/hover.ex:17: LXical.Server.Provider.Handlers.Hover.handle(%{id: 132, position: LxPos<<20, 6>>, __struct__: LXical.Protocol.Requests.Hover, document: #Inspect.Error<
+  got UndefinedFunctionError with message:
+
+      """
+      function Code.Identifier.inspect_as_atom/1 is undefined or private
+      """
+
+  while inspecting:
+
+      %{
+        version: 2,
+        path: "/Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex",
+        __struct__: LXical.Document,
+        lines: %Lines<"defmodule StreamDashWeb.Components.MetricsCard do..."(46 lines)>,
+        dirty?: false,
+        language_id: "elixir"
+      }
+
+  Stacktrace:
+
+    (elixir 1.18.3) Code.Identifier.inspect_as_atom(LXical.Document)
+    (lx_lexical_shared 0.5.0) lib/lexical/document.ex:25: Inspect.LXical.Document.inspect/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/inspect.ex:366: Inspect.List.keyword/2
+    (elixir 1.18.3) lib/inspect/algebra.ex:479: Inspect.Algebra.container_each/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:456: Inspect.Algebra.container_doc/6
+    (elixir 1.18.3) lib/inspect/algebra.ex:348: Inspect.Algebra.to_doc/2
+    (elixir 1.18.3) lib/kernel.ex:2376: Kernel.inspect/2
+
+>, lsp: %{id: 132, position: #Protocol.Types.Position<[line: 19, character: 5]>, __struct__: LXical.Protocol.Requests.Hover.LSP, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/hover", jsonrpc: "2.0", work_done_token: nil}, text_document: #Protocol.Types.TextDocument.Identifier<[uri: "file:///Users/danielhippley/Code/projects/stream_dash/lib/stream_dash_web/components/metrics_card.ex"]>, method: "textDocument/hover", jsonrpc: "2.0", work_done_token: nil}, nil)
+    (lx_server 0.7.2) lib/lexical/server/task_queue.ex:79: anonymous fn/4 in LXical.Server.TaskQueue.State.as_task/2
+    (elixir 1.18.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+    (elixir 1.18.3) lib/task/supervised.ex:36: Task.Supervised.reply/4
+
+13:24:26.275 [warning] Task Elixir.LXical.Server.Provider.Handlers.Hover.handle/2 ran for  3 ms. Result :success
